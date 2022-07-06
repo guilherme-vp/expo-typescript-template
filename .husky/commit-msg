@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+yarn commitlint --edit $1 || { echo "$COMMIT_LINT_FAILED_MESSAGE" && exit 1; }
