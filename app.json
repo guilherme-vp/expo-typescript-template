@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "expo-with-firebase-auth-demo",
-    "slug": "expo-with-firebase-auth-demo",
+    "name": "template-app",
+    "slug": "template-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "template-app",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
