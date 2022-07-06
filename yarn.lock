@@ -40,7 +40,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.12.9, @babel/core@npm:^7.13.16, @babel/core@npm:^7.14.0":
+"@babel/core@npm:^7.13.16, @babel/core@npm:^7.14.0, @babel/core@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/core@npm:7.18.6"
   dependencies:
@@ -2507,7 +2507,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/bottom-tabs@npm:^6.0.5":
+"@react-navigation/bottom-tabs@npm:^6.3.2":
   version: 6.3.2
   resolution: "@react-navigation/bottom-tabs@npm:6.3.2"
   dependencies:
@@ -2551,7 +2551,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native-stack@npm:^6.1.0":
+"@react-navigation/native-stack@npm:^6.7.0":
   version: 6.7.0
   resolution: "@react-navigation/native-stack@npm:6.7.0"
   dependencies:
@@ -2567,7 +2567,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native@npm:^6.0.2":
+"@react-navigation/native@npm:^6.0.11":
   version: 6.0.11
   resolution: "@react-navigation/native@npm:6.0.11"
   dependencies:
@@ -2742,23 +2742,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-native@npm:~0.66.13":
-  version: 0.66.19
-  resolution: "@types/react-native@npm:0.66.19"
+"@types/react-native@npm:^0.69.2":
+  version: 0.69.2
+  resolution: "@types/react-native@npm:0.69.2"
   dependencies:
     "@types/react": "*"
-  checksum: 912a762b00deabc51df9975df548a03a18a900a6aa00f2fe08deb9448388621552f532915eee1398c68e37588b3ea4ae32fdf8ef4c2d910f025f0a136e52daa4
+  checksum: 210a658415726e15560a9b7ee2392e9ac5d89587aac86b9d4e73367c154e0fb79161e7933cc66b72bf562cd6f42f36d6563bd1ae272da57b6b96a45c25881869
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.45":
-  version: 17.0.45
-  resolution: "@types/react@npm:17.0.45"
+"@types/react@npm:*, @types/react@npm:^18.0.15":
+  version: 18.0.15
+  resolution: "@types/react@npm:18.0.15"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 3cc13a02824c13f6fa4807a83abd065ac1d9943359e76bd995cc7cd2b4148c1176ebd54a30a9f4eb8a0f141ff359d712876f256c4fee707e4290607ef8410b3e
+  checksum: e22cc388d1c145aa184787e44dc28db4789976c704cd5db475c170bb76a560eb81def5f346cfe750949bb3d43ad88822b8cbb9f19b1286e3795892a8263e7715
   languageName: node
   linkType: hard
 
@@ -5485,7 +5485,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-web-browser@npm:~10.2.0":
+"expo-web-browser@npm:~10.2.1":
   version: 10.2.1
   resolution: "expo-web-browser@npm:10.2.1"
   dependencies:
@@ -11019,15 +11019,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "template-app@workspace:."
   dependencies:
-    "@babel/core": ^7.12.9
+    "@babel/core": ^7.18.6
     "@commitlint/cli": ^17.0.3
     "@commitlint/config-conventional": ^17.0.3
     "@expo/vector-icons": ^13.0.0
-    "@react-navigation/bottom-tabs": ^6.0.5
-    "@react-navigation/native": ^6.0.2
-    "@react-navigation/native-stack": ^6.1.0
-    "@types/react": 17.0.21
-    "@types/react-native": ~0.66.13
+    "@react-navigation/bottom-tabs": ^6.3.2
+    "@react-navigation/native": ^6.0.11
+    "@react-navigation/native-stack": ^6.7.0
+    "@types/react": ^18.0.15
+    "@types/react-native": ^0.69.2
     "@typescript-eslint/eslint-plugin": ^5.30.5
     "@typescript-eslint/parser": ^5.30.5
     eslint: ^8.19.0
@@ -11045,7 +11045,7 @@ __metadata:
     expo-splash-screen: ~0.15.1
     expo-status-bar: ~1.3.0
     expo-system-ui: ~1.2.0
-    expo-web-browser: ~10.2.0
+    expo-web-browser: ~10.2.1
     husky: ^8.0.1
     prettier: ^2.7.1
     react: 17.0.2
@@ -11055,7 +11055,7 @@ __metadata:
     react-native-screens: ~3.11.1
     react-native-web: 0.17.7
     react-test-renderer: 17.0.2
-    typescript: ~4.3.5
+    typescript: ~4.7.4
   languageName: unknown
   linkType: soft
 
@@ -11430,7 +11430,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.6.4":
+"typescript@npm:^4.6.4, typescript@npm:~4.7.4":
   version: 4.7.4
   resolution: "typescript@npm:4.7.4"
   bin:
@@ -11440,33 +11440,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~4.3.5":
-  version: 4.3.5
-  resolution: "typescript@npm:4.3.5"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: bab033b5e2b0790dd35b77fd005df976ef80b8d84fd2c6e63cc31808151875beae9216e5a315fe7068e8499905c3c354248fe83272cdfc13b7705635f0c66c97
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>, typescript@patch:typescript@~4.7.4#~builtin<compat/typescript>":
   version: 4.7.4
   resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 9096d8f6c16cb80ef3bf96fcbbd055bf1c4a43bd14f3b7be45a9fbe7ada46ec977f604d5feed3263b4f2aa7d4c7477ce5f9cd87de0d6feedec69a983f3a4f93e
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@~4.3.5#~builtin<compat/typescript>":
-  version: 4.3.5
-  resolution: "typescript@patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=7ad353"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 365df18cf979c971ef9543b2acaa8694377a803f98e1804c41d0ede0b09d7046cb0cd98f2eaf3884b0fe923c01a60af1f653841bd8805c9715d5479c09a4ebe4
   languageName: node
   linkType: hard
 
